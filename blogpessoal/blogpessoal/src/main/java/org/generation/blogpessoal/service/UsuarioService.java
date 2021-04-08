@@ -4,8 +4,10 @@ import java.nio.charset.Charset;
 import java.util.Optional;
 
 import org.apache.commons.codec.binary.Base64;
+import org.generation.blogpessoal.controller.PostagemController;
 import org.generation.blogpessoal.model.UserLogin;
 import org.generation.blogpessoal.model.Usuario;
+import org.generation.blogpessoal.model.postagem;
 import org.generation.blogpessoal.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -46,6 +48,10 @@ public class UsuarioService {
 		
 		return null;
 	}
+	/*public Optional<Usuario> cadastrarPostagem(postagem novaPostagem, Long idUsuario){
+		Optional<Usuario> usuarioExistente = repository.findById(idUsuario);
+		
+	}*/
 }
 
 
