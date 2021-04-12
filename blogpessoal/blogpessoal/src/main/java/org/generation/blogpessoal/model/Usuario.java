@@ -1,4 +1,4 @@
-package org.generation.blogpessoal.model;
+ package org.generation.blogpessoal.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
